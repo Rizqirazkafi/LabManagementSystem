@@ -13,7 +13,7 @@
 					<svg class="glyph stroked dashboard-dial">
 						<use xlink:href="#stroked-dashboard-dial"></use>
 					</svg>
-					Dashboard
+					Dasbor
 				</a>
 			</li>
 			<li class="parent ">
@@ -27,7 +27,7 @@
 							<svg class="glyph stroked eye">
 								<use xlink:href="#stroked-eye"/>
 							</svg>
-							Reservations
+							Reservasi
 						</a>
 					</li>
 
@@ -37,7 +37,7 @@
 							<svg class="glyph stroked plus sign">
 								<use xlink:href="#stroked-plus-sign"/>
 							</svg>
-							New
+							Baru
 						</a>
 					</li>
 					<li>
@@ -45,7 +45,7 @@
 							<svg class="glyph stroked download">
 								<use xlink:href="#stroked-download"/>
 							</svg>
-							Borrowed Items
+							Barang Yang Dipinjam
 						</a>
 					</li>
 					<li>
@@ -53,7 +53,7 @@
 							<svg class="glyph stroked checkmark">
 								<use xlink:href="#stroked-checkmark"/>
 							</svg>
-							Returned Items
+							Barang Yang Dikembalikan
 						</a>
 					</li>
 				</ul>
@@ -64,7 +64,7 @@
 					<svg class="glyph stroked desktop">
 						<use xlink:href="#stroked-desktop"/>
 					</svg>
-					Item
+					Barang
 				</a>
 			</li>
 			<li>
@@ -72,7 +72,7 @@
 					<svg class="glyph stroked male user ">
 						<use xlink:href="#stroked-male-user"/>
 					</svg>
-					Borrower
+					Peminjam
 				</a>
 			</li>
 			<li>
@@ -80,7 +80,7 @@
 					<svg class="glyph stroked app-window">
 						<use xlink:href="#stroked-app-window"></use>
 					</svg>
-					Room
+					Ruang
 				</a>
 			</li>
 			<li class="active">
@@ -88,7 +88,7 @@
 					<svg class="glyph stroked clipboard with paper">
 						<use xlink:href="#stroked-clipboard-with-paper"/>
 					</svg>
-					Inventory
+					Penyimpanan
 				</a>
 			</li>
 			<li>
@@ -96,7 +96,7 @@
 					<svg class="glyph stroked line-graph">
 						<use xlink:href="#stroked-line-graph"/>
 					</svg>
-					Graph
+					Grafis
 				</a>
 			</li>
 			<li>
@@ -104,7 +104,7 @@
 					<svg class="glyph stroked female user">
 						<use xlink:href="#stroked-female-user"/>
 					</svg>
-					User
+					Pengguna
 				</a>
 			</li>
 			<?php
@@ -158,10 +158,10 @@
 									<thead>
 										<tr>
 											<th>Model</th>
-											<th>Category</th>
-											<th>Brand</th>
-											<th>Quantity</th>
-											<th>Quantity Left</th>
+											<th>Kategori</th>
+											<th>Merek</th>
+											<th>Deskripsi</th>
+											<th>Jumlah Tersisa</th>
 										</tr>
 									</thead>
 								</table>
@@ -171,10 +171,10 @@
 									<thead>
 										<tr>
 											<th>Model</th>
-											<th>Category</th>
-											<th>Brand</th>
-											<th>Quantity</th>
-											<th>Quantity Left</th>
+											<th>Kategori</th>
+											<th>Merek</th>
+											<th>Jumlah</th>
+											<th>Jumlah Tersisa</th>
 										</tr>
 									</thead>
 								</table>
@@ -184,10 +184,10 @@
 									<thead>
 										<tr>
 											<th>Model</th>
-											<th>Category</th>
-											<th>Brand</th>
-											<th>No. of items</th>
-											<th>Remarks</th>
+											<th>Kategori</th>
+											<th>Merek</th>
+											<th>Jumlah Barang</th>
+											<th>Komentar</th>
 										</tr>
 									</thead>
 								</table>
@@ -197,10 +197,10 @@
 									<thead>
 										<tr>
 											<th>Model</th>
-											<th>Category</th>
-											<th>Brand</th>
-											<th>No. of items</th>
-											<th>Remarks</th>
+											<th>Kategori</th>
+											<th>Merek</th>
+											<th>Jumlah Barang</th>
+											<th>Komentar</th>
 										</tr>
 									</thead>
 								</table>
@@ -209,9 +209,9 @@
 								<table class="table table_inventory_all">
 									<thead>
 										<tr>
-											<th>Category</th>
-											<th>New</th>
-											<th>(Old / Damage / Lost / Borrowed / Transferred)</th>
+											<th>Kategori</th>
+											<th>Baru</th>
+											<th>(Lama / Rusak / Hilang / Dipinjam / Dikirim)</th>
 											<th>Total</th>
 										</tr>
 									</thead>
@@ -259,13 +259,13 @@
 											<thead>
 												<tr>
 													<th>Model</th>
-													<th>Category</th>
-													<th>Brand</th>
-													<th>No. of items</th>
-													<th>Room</th>
-													<th>Person-in-charge</th>
-													<th>User</th>
-													<th>Date Transferred</th>
+													<th>Kategori</th>
+													<th>Merek</th>
+													<th>Jumlah Barang</th>
+													<th>Ruang</th>
+													<th>Penanggung Jawab</th>
+													<th>Pengguna</th>
+													<th>Tanggal Ditransfer</th>
 												</tr>
 											</thead>
 										</table>
@@ -313,10 +313,10 @@
 										<table class="table tbl_return">
 											<thead>										
 												<tr>										 
-													<th>Borrower</th>
-													<th>Items</th>
-													<th>Borrowed Date</th>
-													<th>Returned Date</th>
+													<th>Peminjam</th>
+													<th>Barang</th>
+													<th>Tanggal Pinjam</th>
+													<th>Tanggal Pengembalian</th>
 													
 												</tr>
 											</thead>

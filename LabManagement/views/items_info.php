@@ -13,7 +13,7 @@
 					<svg class="glyph stroked dashboard-dial">
 						<use xlink:href="#stroked-dashboard-dial"></use>
 					</svg>
-					Dashboard
+					Dasbor
 				</a>
 			</li>
 			<li class="parent ">
@@ -27,7 +27,7 @@
 							<svg class="glyph stroked eye">
 								<use xlink:href="#stroked-eye"/>
 							</svg>
-							Reservations
+							Reservasi
 						</a>
 					</li>
 
@@ -37,7 +37,7 @@
 							<svg class="glyph stroked plus sign">
 								<use xlink:href="#stroked-plus-sign"/>
 							</svg>
-							New
+							Baru
 						</a>
 					</li>
 					<li>
@@ -45,7 +45,7 @@
 							<svg class="glyph stroked download">
 								<use xlink:href="#stroked-download"/>
 							</svg>
-							Borrowed Items
+							Barang Yang Dipinjam
 						</a>
 					</li>
 					<li>
@@ -53,7 +53,7 @@
 							<svg class="glyph stroked checkmark">
 								<use xlink:href="#stroked-checkmark"/>
 							</svg>
-							Returned Items
+							Barang Yang Dikembalikan
 						</a>
 					</li>
 				</ul>
@@ -64,7 +64,7 @@
 					<svg class="glyph stroked desktop">
 						<use xlink:href="#stroked-desktop"/>
 					</svg>
-					Item
+					Barang
 				</a>
 			</li>
 			<li>
@@ -72,7 +72,7 @@
 					<svg class="glyph stroked male user ">
 						<use xlink:href="#stroked-male-user"/>
 					</svg>
-					Borrower
+					Peminjam
 				</a>
 			</li>
 			<li>
@@ -80,7 +80,7 @@
 					<svg class="glyph stroked app-window">
 						<use xlink:href="#stroked-app-window"></use>
 					</svg>
-					Room
+					Ruang
 				</a>
 			</li>
 			<li>
@@ -88,7 +88,7 @@
 					<svg class="glyph stroked clipboard with paper">
 						<use xlink:href="#stroked-clipboard-with-paper"/>
 					</svg>
-					Inventory
+					Penyimpanan
 				</a>
 			</li>
 			<li>
@@ -96,7 +96,7 @@
 					<svg class="glyph stroked line-graph">
 						<use xlink:href="#stroked-line-graph"/>
 					</svg>
-					Graph
+					Grafis
 				</a>
 			</li>
 			<li>
@@ -104,7 +104,7 @@
 					<svg class="glyph stroked female user">
 						<use xlink:href="#stroked-female-user"/>
 					</svg>
-					User
+					Pengguna
 				</a>
 			</li>
 			<?php 
@@ -120,21 +120,21 @@
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<li class=""><a href="items">Items</a></li>
-				<li class="active">Items Information</li>
+				<li class=""><a href="items">Barang</a></li>
+				<li class="active">Informasi Barang</li>
 			</ol>
 			<div class="breadcrumb">
 				<button class="btn btn-primary item-add" type="button">
 					<i class="fa fa-plus"></i>
-					Add Quantity
+					Tambahkan Jumlah
 				</button>
 				<button class="btn btn-primary item-edit" type="button">
 					<i class="fa fa-edit"></i>
-					Edit Item
+					Edit Barang
 				</button>
 				<button class="btn btn-primary item-change" type="button">
 					<i class="fa fa-arrows-alt"></i>
-					Change Status
+					Ubah Status
 				</button>
 			</div>
 		</div><!--/.row-->
@@ -151,7 +151,7 @@
 									<td style="text-align:center;" class="e_photo" ></td>
 								</tr>
 								<tr>
-									<td class="success col-sm-6">Serial ID/ Device ID</td>
+									<td class="success col-sm-6">ID Serial/ ID Perangkat</td>
 									<td class="e_id"></td>
 								</tr>
 								<tr>
@@ -159,31 +159,31 @@
 									<td class="e_model"></td>
 								</tr>
 								<tr>
-									<td class="success col-sm-6">Category</td>
+									<td class="success col-sm-6">Kategori</td>
 									<td class="e_category"></td>
 								</tr>
 								<tr>
-									<td class="col-sm-6">Brand</td>
+									<td class="col-sm-6">Merek</td>
 									<td class="e_brand"></td>
 								</tr>
 								<tr>
-									<td class="success col-sm-6">Description</td>
+									<td class="success col-sm-6">Deskripsi</td>
 									<td class="e_description"></td>
 								</tr>
 								<tr>
-									<td class="col-sm-6">Quantity</td>
+									<td class="col-sm-6">Jumlah</td>
 									<td class="e_stock"></td>
 								</tr>
 								<tr>
-									<td class="success col-sm-6">Quantity Left</td>
+									<td class="success col-sm-6">Jumlah Tersisa</td>
 									<td class="e_stockleft"></td>
 								</tr>
 								<!-- <tr>
-									<td class="col-sm-6">Assign Room</td>
+									<td class="col-sm-6">Ruang yang Ditentukan</td>
 									<td class="e_assign"></td>
 								</tr> -->
 								<tr>
-									<td class="col-sm-6">Type</td>
+									<td class="col-sm-6">Tipe</td>
 									<td class="e_type"></td>
 								</tr>
 								<tr>
@@ -195,7 +195,7 @@
 									<td class="e_mr"></td>
 								</tr>
 								<tr>
-									<td class="success col-sm-6">Price per Item</td>
+									<td class="success col-sm-6">Harga per Barang</td>
 									<td class="e_price"></td>
 								</tr>
 							</tbody>

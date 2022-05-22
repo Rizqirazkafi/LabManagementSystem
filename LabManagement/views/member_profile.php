@@ -14,7 +14,7 @@ include 'header.php';
 				<svg class="glyph stroked dashboard-dial">
 					<use xlink:href="#stroked-dashboard-dial"></use>
 				</svg>
-				Dashboard
+				Dasbor
 			</a>
 		</li>
 		<li class="parent ">
@@ -27,7 +27,7 @@ include 'header.php';
 						<svg class="glyph stroked eye">
 							<use xlink:href="#stroked-eye"/>
 						</svg>
-						Reservations
+						Reservasi
 					</a>
 				</li>
 				<li>
@@ -35,7 +35,7 @@ include 'header.php';
 						<svg class="glyph stroked plus sign">
 							<use xlink:href="#stroked-plus-sign"/>
 						</svg>
-						New
+						Baru
 					</a>
 				</li>
 				<li>
@@ -43,7 +43,7 @@ include 'header.php';
 						<svg class="glyph stroked download">
 							<use xlink:href="#stroked-download"/>
 						</svg>
-						Borrowed Items
+						Barang Yang Dipinjam
 					</a>
 				</li>
 				<li>
@@ -51,7 +51,7 @@ include 'header.php';
 						<svg class="glyph stroked checkmark">
 							<use xlink:href="#stroked-checkmark"/>
 						</svg>
-						Returned Items
+						Barang Yang Dikembalikan
 					</a>
 				</li>
 			</ul>
@@ -62,7 +62,7 @@ include 'header.php';
 				<svg class="glyph stroked desktop">
 					<use xlink:href="#stroked-desktop"/>
 				</svg>
-				Item
+				Barang
 			</a>
 		</li>
 		<li class="active">
@@ -70,7 +70,7 @@ include 'header.php';
 				<svg class="glyph stroked male user ">
 					<use xlink:href="#stroked-male-user"/>
 				</svg>
-				Borrower
+				Peminjam
 			</a>
 		</li>
 		<li>
@@ -78,7 +78,7 @@ include 'header.php';
 				<svg class="glyph stroked app-window">
 					<use xlink:href="#stroked-app-window"></use>
 				</svg>
-				Room
+				Ruang
 			</a>
 		</li>
 		<li>
@@ -86,7 +86,7 @@ include 'header.php';
 				<svg class="glyph stroked clipboard with paper">
 					<use xlink:href="#stroked-clipboard-with-paper"/>
 				</svg>
-				Inventory
+				Penyimpanan
 			</a>
 		</li>
 		<li>
@@ -94,7 +94,7 @@ include 'header.php';
 				<svg class="glyph stroked line-graph">
 					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#stroked-line-graph"/>
 				</svg>
-				Graph
+				Grafis
 			</a>
 		</li>
 		<li>
@@ -102,7 +102,7 @@ include 'header.php';
 				<svg class="glyph stroked female user">
 					<use xlink:href="#stroked-female-user"/>
 				</svg>
-				User
+				Pengguna
 			</a>
 		</li>
 			<?php 
@@ -116,7 +116,7 @@ include 'header.php';
 	<div class="row">
 		<ol class="breadcrumb">
 			<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-			<li class="active"><a href="members">Borrower</a></li>
+			<li class="active"><a href="members">Peminjam</a></li>
 			<li class="active"><?php echo $_GET['name'];?> Profile</li>
 		</ol>
 		<!-- <div class="breadcrumb">
@@ -124,19 +124,19 @@ include 'header.php';
 				<svg class="glyph stroked plus sign">
 					<use xlink:href="#stroked-plus-sign"/>
 				</svg>
-				Upload CSV File
+				Unggah File CSV
 			</button>
 			<button class="btn btn-primary add_student">
 				<svg class="glyph stroked plus sign">
 					<use xlink:href="#stroked-plus-sign"/>
 				</svg>
-				Add Student
+				Tambahkan Mahasiswa
 			</button>
 			<button class="btn btn-primary add_faculty">
 				<svg class="glyph stroked plus sign">
 					<use xlink:href="#stroked-plus-sign"/>
 				</svg>
-				Add Faculty
+				Tambahkan Fakultas
 			</button>
 		</div> -->
 	</div><!--/.row-->
@@ -147,9 +147,9 @@ include 'header.php';
 					<table class="table table-bordered tbl_member_profile">
 						<thead>
 							<tr>
-								<th>Borrowed Date</th>
-								<th>Items Borrowed</th>
-								<th>Room</th>
+								<th>Tanggal Pinjam</th>
+								<th>Barang Yang Dipinjam</th>
+								<th>Ruang</th>
 								<th>Status</th>
 							</tr>
 						</thead>
@@ -164,22 +164,22 @@ include 'header.php';
 <div class="right-sidebar member-side">
 	<div class="sidebar-form">
 		<div class="container-fluid">
-			<h4 class="alert bg-success">Add Member</h4>
+			<h4 class="alert bg-success">Tambah Anggota</h4>
 			<div class="form-group">
 				<a class="btn btn-primary btn-block" target="_blank" download="member_format.csv" href="../assets/downloadables/member_format.csv">
 					<i class="fa fa-download"></i>
-					Download Format
+					Unduh Format
 				</a>
 			</div>
 			<form class="frm_addmember" enctype="multipart/form-data">
 				<div class="form-group">
-					<label>Upload File</label>
+					<label>Unggah File</label>
 					<input type="file" name="file" class="form-control" required>
 					<input type="hidden" name="key" value="add_member">
 				</div>
 				<div class="form-group">
-					<button class="btn btn-danger cancel_member" type="button">Cancel</button>
-					<button class="btn btn-success" type="submit">Upload</button>
+					<button class="btn btn-danger cancel_member" type="button">Batal</button>
+					<button class="btn btn-success" type="submit">Unggah</button>
 				</div>
 			</form>	
 		</div>
