@@ -14,12 +14,12 @@ include 'header.php';
 				<svg class="glyph stroked dashboard-dial">
 					<use xlink:href="#stroked-dashboard-dial"></use>
 				</svg>
-				Dashboard
+				Dasbor
 			</a>
 		</li>
 		<li class="parent ">
 			<a href="#sub-item-1" data-toggle="collapse">
-					<span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaction 
+					<span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaksi 
 				</a>
 			<ul class="children collapse" id="sub-item-1">
 				<li>
@@ -27,7 +27,7 @@ include 'header.php';
 						<svg class="glyph stroked eye">
 							<use xlink:href="#stroked-eye"/>
 						</svg>
-						Reservations
+						Reservasi
 					</a>
 				</li>
 				<li>
@@ -35,7 +35,7 @@ include 'header.php';
 						<svg class="glyph stroked plus sign">
 							<use xlink:href="#stroked-plus-sign"/>
 						</svg>
-						New
+						Baru
 					</a>
 				</li>
 				<li>
@@ -43,7 +43,7 @@ include 'header.php';
 						<svg class="glyph stroked download">
 							<use xlink:href="#stroked-download"/>
 						</svg>
-						Borrowed Items
+						Barang Yang Dipinjam
 					</a>
 				</li>
 				<li>
@@ -51,7 +51,7 @@ include 'header.php';
 						<svg class="glyph stroked checkmark">
 							<use xlink:href="#stroked-checkmark"/>
 						</svg>
-						Returned Items
+						Barang Yang
 					</a>
 				</li>
 			</ul>
@@ -62,7 +62,7 @@ include 'header.php';
 				<svg class="glyph stroked desktop">
 					<use xlink:href="#stroked-desktop"/>
 				</svg>
-				Item
+				Barang
 			</a>
 		</li>
 		<li>
@@ -70,7 +70,7 @@ include 'header.php';
 				<svg class="glyph stroked male user ">
 					<use xlink:href="#stroked-male-user"/>
 				</svg>
-				Borrower
+				Peminjam
 			</a>
 		</li>
 		<li class="active">
@@ -78,7 +78,7 @@ include 'header.php';
 				<svg class="glyph stroked app-window">
 					<use xlink:href="#stroked-app-window"></use>
 				</svg>
-				Room
+				Ruang
 			</a>
 		</li>
 		<li>
@@ -86,7 +86,7 @@ include 'header.php';
 				<svg class="glyph stroked clipboard with paper">
 					<use xlink:href="#stroked-clipboard-with-paper"/>
 				</svg>
-				Inventory
+				Inventaris
 			</a>
 		</li>
 		<li>
@@ -94,7 +94,7 @@ include 'header.php';
 				<svg class="glyph stroked line-graph">
 					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#stroked-line-graph"/>
 				</svg>
-				Graph
+				Grafik
 			</a>
 		</li>
 		<li>
@@ -102,7 +102,7 @@ include 'header.php';
 				<svg class="glyph stroked female user">
 					<use xlink:href="#stroked-female-user"/>
 				</svg>
-				User
+				Pengguna
 			</a>
 		</li>
 		<?php 
@@ -116,14 +116,14 @@ include 'header.php';
 	<div class="row">
 		<ol class="breadcrumb">
 			<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-			<li class="active">Rooms</li>
+			<li class="active">Ruang</li>
 		</ol>
 		<div class="breadcrumb">
 			<button class="btn btn-primary col-sm-offset-10 add_room">
 				<svg class="glyph stroked plus sign">
 					<use xlink:href="#stroked-plus-sign"/>
 				</svg>
-				Add Room
+				Tambah Ruang
 			</button>
 		</div>
 	</div><!--/.row-->
@@ -134,8 +134,8 @@ include 'header.php';
 					<table class="table table-hover table_room">
 						<thead>
 							<tr>
-								<th>Room Name</th>
-								<th>Action</th>
+								<th>Nama Ruang</th>
+								<th>Aksi</th>
 							</tr>
 						</thead>
 					</table>
@@ -150,9 +150,9 @@ include 'header.php';
 	<div class="sidebar-form">
 		<div class="container-fluid">
 			<form class="frm_addroom">
-				<h4 class="alert bg-success"><i class="fa fa-plus"></i> Add Room</h4>
+				<h4 class="alert bg-success"><i class="fa fa-plus"></i> Tambah Ruang</h4>
 				<div class="form-group">
-					<label>Room Number</label>
+					<label>Nomer Ruang</label>
 					<input type="number" name="room_name" min="0" class="form-control" autofocus autocomplete="off" required>
 				</div>
 				<div class="form-group">
@@ -160,12 +160,12 @@ include 'header.php';
 						<div class="col-md-6">
 							<button class="btn btn-danger btn-block cancel_room" type="button">
 								<i class="fa fa-remove"></i>
-								CANCEL
+								Batal
 							</button>
 						</div>
 						<div class="col-md-6">
 							<button class="btn btn-primary btn-block" type="submit">
-								SAVE
+								Simpan
 								<i class="fa fa-check"></i>
 							</button>
 						</div>
@@ -196,9 +196,9 @@ include 'header.php';
 	<div class="sidebar-form">
 		<div class="container-fluid">
 			<form class="frm_editroom">
-				<h4 class="alert bg-success"><i class="fa fa-edit"></i> Edit Room</h4>
+				<h4 class="alert bg-success"><i class="fa fa-edit"></i> Edit Ruang</h4>
 				<div class="form-group">
-					<label>Room Name</label>
+					<label>Nama Ruang/label>
 					<input type="text" name="edit_rm_name" class="form-control" autofocus required autocomplete="off" >
 					<input type="hidden" name="edit_rm_id">
 				</div>
@@ -206,7 +206,7 @@ include 'header.php';
 					<div class="col-md-6">
 						<button class="btn btn-danger btn-block cancel_editroom" type="button">
 							<i class="fa fa-remove"></i>
-							CANCEL
+							BATAL
 						</button>
 					</div>
 					<div class="col-md-6">

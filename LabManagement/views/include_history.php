@@ -3,6 +3,6 @@
 		<svg class="glyph stroked clock">
 			<use xlink:href="#stroked-clock"/>
 		</svg>
-		History
+		Riwayat
 	</a>
 </li>

@@ -13,12 +13,12 @@
 					<svg class="glyph stroked dashboard-dial">
 						<use xlink:href="#stroked-dashboard-dial"></use>
 					</svg>
-					Dashboard
+					Dasbor
 				</a>
 			</li>
 			<li class="parent ">
 				<a href="#sub-item-1" data-toggle="collapse">
-          <span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaction 
+          <span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaksi
         </a>
 				<ul class="children collapse" id="sub-item-1">
 					
@@ -45,7 +45,7 @@
 							<svg class="glyph stroked download">
 								<use xlink:href="#stroked-download"/>
 							</svg>
-							Borrowed Items
+							Barang Yang Dipinjam
 						</a>
 					</li>
 					<li>
@@ -53,7 +53,7 @@
 							<svg class="glyph stroked checkmark">
 								<use xlink:href="#stroked-checkmark"/>
 							</svg>
-							Returned Items
+							Barang Yang Dikembalikan
 						</a>
 					</li>
 				</ul>
@@ -64,7 +64,7 @@
 					<svg class="glyph stroked desktop">
 						<use xlink:href="#stroked-desktop"/>
 					</svg>
-					Item
+					Barang
 				</a>
 			</li>
 			<li>
@@ -72,7 +72,7 @@
 					<svg class="glyph stroked male user ">
 						<use xlink:href="#stroked-male-user"/>
 					</svg>
-					Borrower
+					Dipinjam
 				</a>
 			</li>
 			<li>
@@ -80,7 +80,7 @@
 					<svg class="glyph stroked app-window">
 						<use xlink:href="#stroked-app-window"></use>
 					</svg>
-					Room
+					Ruang
 				</a>
 			</li>
 			<li>
@@ -88,7 +88,7 @@
 					<svg class="glyph stroked clipboard with paper">
 						<use xlink:href="#stroked-clipboard-with-paper"/>
 					</svg>
-					Inventory
+          Inventaris
 				</a>
 			</li>
 			<li class="active">
@@ -96,7 +96,7 @@
 					<svg class="glyph stroked line-graph">
 						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#stroked-line-graph"/>
 					</svg>
-					Graph
+					Grafik
 				</a>
 			</li>
 			<li>
@@ -104,7 +104,7 @@
 					<svg class="glyph stroked female user">
 						<use xlink:href="#stroked-female-user"/>
 					</svg>
-					User
+					Pengguna
 				</a>
 			</li>
 			<?php 
@@ -120,7 +120,7 @@
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<li class="active">Graph</li>
+				<li class="active">Grafik</li>
 			</ol>
 		</div><!--/.row-->
 
@@ -130,7 +130,7 @@
 			<div class="col-md-6">
 				<div class="panel panel-primary">
 					<div class="panel-heading">
-						<h4 class="panel-title">Borrowed Items</h4>
+						<h4 class="panel-title">Barang Yang Dipinjam</h4>
 					</div>
 					<div class="panel-body">
 						<div class="col-md-12" id="chartdiv" style="height: 500px;"></div>
@@ -140,7 +140,7 @@
 			<div class="col-md-6">
 				<div class="panel panel-primary">
 					<div class="panel-heading">
-						<h4 class="panel-title">Returned Items</h4>
+						<h4 class="panel-title">Barang Yang Dikembalikan</h4>
 					</div>
 					<div class="panel-body">
 						<div class="col-md-12" id="returndiv" style="height: 500px;"></div>
@@ -153,7 +153,7 @@
             <div class="col-md-12">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h4 class="panel-title">Frequency of Use</h4>
+                        <h4 class="panel-title">Frekuensi Penggunaan</h4>
                     </div>
                     <div class="panel-body">
                         <div class="col-md-12" id="frequency" style="height: 500px;"></div>
@@ -164,7 +164,7 @@
       <div class="col-md-12">
         <div class="panel panel-primary">
           <div class="panel-heading">
-            <h4 class="panel-title">Items Inventory</h4>
+            <h4 class="panel-title">Inventaris Barang</h4>
           </div>
           <div class="panel-body">
             <div class="col-md-12" id="inventory" style="height: 500px;"></div>

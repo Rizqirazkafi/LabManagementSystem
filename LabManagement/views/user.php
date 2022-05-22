@@ -31,7 +31,7 @@ include 'header.php';
 						<svg class="glyph stroked eye">
 							<use xlink:href="#stroked-eye"/>
 						</svg>
-						Pemesanan
+						Reservasi
 					</a>
 				</li>
 				<li>

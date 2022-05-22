@@ -13,12 +13,12 @@
 					<svg class="glyph stroked dashboard-dial">
 						<use xlink:href="#stroked-dashboard-dial"></use>
 					</svg>
-					Dashboard
+					Dasbor
 				</a>
 			</li>
 			<li class="parent active">
 				<a href="#sub-item-1" data-toggle="collapse">
-					<span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaction 
+					<span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaksi
 				</a>
 				<ul class="children collapse" id="sub-item-1">
 					
@@ -27,7 +27,7 @@
 							<svg class="glyph stroked eye">
 								<use xlink:href="#stroked-eye"/>
 							</svg>
-							Reservations
+							Reservasi
 						</a>
 					</li>
 
@@ -37,7 +37,7 @@
 							<svg class="glyph stroked plus sign">
 								<use xlink:href="#stroked-plus-sign"/>
 							</svg>
-							New
+							Baru
 						</a>
 					</li>
 					<li>
@@ -45,7 +45,7 @@
 							<svg class="glyph stroked download">
 								<use xlink:href="#stroked-download"/>
 							</svg>
-							Borrowed Items
+							Barang Yang Dipinjam
 						</a>
 					</li>
 					<li class="active">
@@ -53,7 +53,7 @@
 							<svg class="glyph stroked checkmark">
 								<use xlink:href="#stroked-checkmark"/>
 							</svg>
-							Returned Items
+							Barang Yang Dikembalikan
 						</a>
 					</li>
 				</ul>
@@ -64,7 +64,7 @@
 					<svg class="glyph stroked desktop">
 						<use xlink:href="#stroked-desktop"/>
 					</svg>
-					Item
+					Barang
 				</a>
 			</li>
 			<li>
@@ -72,7 +72,7 @@
 					<svg class="glyph stroked male user ">
 						<use xlink:href="#stroked-male-user"/>
 					</svg>
-					Borrower
+					Peminjam
 				</a>
 			</li>
 			<li>
@@ -80,7 +80,7 @@
 					<svg class="glyph stroked app-window">
 						<use xlink:href="#stroked-app-window"></use>
 					</svg>
-					Room
+					Ruang
 				</a>
 			</li>
 			<li>
@@ -88,7 +88,7 @@
 					<svg class="glyph stroked clipboard with paper">
 						<use xlink:href="#stroked-clipboard-with-paper"/>
 					</svg>
-					Inventory
+					Inventaris
 				</a>
 			</li>
 			<li>
@@ -96,7 +96,7 @@
 					<svg class="glyph stroked line-graph">
 						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#stroked-line-graph"/>
 					</svg>
-					Graph
+					Grafik
 				</a>
 			</li>
 			<li>
@@ -104,7 +104,7 @@
 					<svg class="glyph stroked female user">
 						<use xlink:href="#stroked-female-user"/>
 					</svg>
-					User
+					Pengguna
 				</a>
 			</li>
 			<?php
@@ -119,7 +119,7 @@
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<li class="active">Returned Items</li>
+				<li class="active"></li>Barang Yang Dikembalikan
 			</ol>
 		</div><!--/.row-->
 
@@ -130,10 +130,10 @@
 						<table class="table table-bordered tbl_return">
 							<thead>
 								<tr>
-									<th>Borrower Name</th>
-									<th>Returned Items</th>
-									<th>Borrowed Date</th>
-									<th>Returned Date</th>
+									<th>Nama Peminjam</th>
+									<th>Barang Yang Dikembalikan</th>
+									<th>Tanggal Pinjaman</th>
+									<th>Tanggal Pinjaman</th>
 									
 								</tr>
 							</thead>

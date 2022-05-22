@@ -18,7 +18,10 @@
 			</li>
 			<li class="parent ">
 				<a href="#sub-item-1" data-toggle="collapse">
-					<span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaction 
+                    <span data-toggle="collapse" href="#sub-item-1">
+
+                    <svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span>
+                    Transaksi
 				</a>
 				<ul class="children collapse" id="sub-item-1">
 					
@@ -27,7 +30,7 @@
 							<svg class="glyph stroked eye">
 								<use xlink:href="#stroked-eye"/>
 							</svg>
-							Reservations
+							Reservasi
 						</a>
 					</li>
 
@@ -37,7 +40,7 @@
 							<svg class="glyph stroked plus sign">
 								<use xlink:href="#stroked-plus-sign"/>
 							</svg>
-							New
+							Daftar Baru
 						</a>
 					</li>
 					<li>
@@ -45,7 +48,7 @@
 							<svg class="glyph stroked download">
 								<use xlink:href="#stroked-download"/>
 							</svg>
-							Borrowed Items
+							Item Dipinjam
 						</a>
 					</li>
 					<li>
@@ -53,7 +56,7 @@
 							<svg class="glyph stroked checkmark">
 								<use xlink:href="#stroked-checkmark"/>
 							</svg>
-							Returned Items
+							Item Sudah Dikembalikan
 						</a>
 					</li>
 				</ul>
@@ -72,7 +75,7 @@
 					<svg class="glyph stroked male user ">
 						<use xlink:href="#stroked-male-user"/>
 					</svg>
-					Borrower
+					Peminjam
 				</a>
 			</li>
 			<li>
@@ -80,7 +83,7 @@
 					<svg class="glyph stroked app-window">
 						<use xlink:href="#stroked-app-window"></use>
 					</svg>
-					Room
+					Ruangan
 				</a>
 			</li>
 			<li>
@@ -88,7 +91,7 @@
 					<svg class="glyph stroked clipboard with paper">
 						<use xlink:href="#stroked-clipboard-with-paper"/>
 					</svg>
-					Inventory
+					Inventaris
 				</a>
 			</li>
 			<li>
@@ -96,7 +99,7 @@
 					<svg class="glyph stroked line-graph">
 						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#stroked-line-graph"/>
 					</svg>
-					Graph
+					Grafik
 				</a>
 			</li>
 			<li>
@@ -104,7 +107,7 @@
 					<svg class="glyph stroked female user">
 						<use xlink:href="#stroked-female-user"/>
 					</svg>
-					User
+					Pengguna
 				</a>
 			</li>
 			<?php 

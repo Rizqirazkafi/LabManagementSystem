@@ -14,12 +14,12 @@ include 'header.php';
 				<svg class="glyph stroked dashboard-dial">
 					<use xlink:href="#stroked-dashboard-dial"></use>
 				</svg>
-				Dashboard
+				Dasbor
 			</a>
 		</li>
 		<li class="parent ">
 			<a href="#sub-item-1" data-toggle="collapse">
-					<span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaction 
+					<span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaksi
 				</a>
 			<ul class="children collapse" id="sub-item-1">
 				<li>
@@ -27,7 +27,7 @@ include 'header.php';
 						<svg class="glyph stroked eye">
 							<use xlink:href="#stroked-eye"/>
 						</svg>
-						Reservations
+						Reservasi
 					</a>
 				</li>
 				<li>
@@ -35,7 +35,7 @@ include 'header.php';
 						<svg class="glyph stroked plus sign">
 							<use xlink:href="#stroked-plus-sign"/>
 						</svg>
-						New
+						Baru
 					</a>
 				</li>
 				<li>
@@ -43,7 +43,7 @@ include 'header.php';
 						<svg class="glyph stroked download">
 							<use xlink:href="#stroked-download"/>
 						</svg>
-						Borrowed Items
+						Barang Yang Dipinjam
 					</a>
 				</li>
 				<li>
@@ -51,7 +51,7 @@ include 'header.php';
 						<svg class="glyph stroked checkmark">
 							<use xlink:href="#stroked-checkmark"/>
 						</svg>
-						Returned Items
+						Barang Yang Dikembalikan
 					</a>
 				</li>
 			</ul>
@@ -62,7 +62,7 @@ include 'header.php';
 				<svg class="glyph stroked desktop">
 					<use xlink:href="#stroked-desktop"/>
 				</svg>
-				Item
+				Barang
 			</a>
 		</li>
 		<li>
@@ -70,7 +70,7 @@ include 'header.php';
 				<svg class="glyph stroked male user ">
 					<use xlink:href="#stroked-male-user"/>
 				</svg>
-				Borrower
+				Peminjam
 			</a>
 		</li>
 		<li class="active">
@@ -78,7 +78,7 @@ include 'header.php';
 				<svg class="glyph stroked app-window">
 					<use xlink:href="#stroked-app-window"></use>
 				</svg>
-				Room
+				Ruang
 			</a>
 		</li>
 		<li>
@@ -86,7 +86,7 @@ include 'header.php';
 				<svg class="glyph stroked clipboard with paper">
 					<use xlink:href="#stroked-clipboard-with-paper"/>
 				</svg>
-				Inventory
+				Inventaris
 			</a>
 		</li>
 		<li>
@@ -94,7 +94,7 @@ include 'header.php';
 				<svg class="glyph stroked line-graph">
 					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#stroked-line-graph"/>
 				</svg>
-				Graph
+				Grafik
 			</a>
 		</li>
 		<li>
@@ -102,7 +102,7 @@ include 'header.php';
 				<svg class="glyph stroked female user">
 					<use xlink:href="#stroked-female-user"/>
 				</svg>
-				User
+				Pengguna
 			</a>
 		</li>
 		<?php
@@ -116,7 +116,7 @@ include 'header.php';
 	<div class="row">
 		<ol class="breadcrumb">
 			<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-			<li class=""><a href="room">Rooms</a></li>
+			<li class=""><a href="room">Ruang</a></li>
 			<li class="active"><?php echo ucwords($_GET['name']); ?></li>
 		</ol>
 	</div><!--/.row-->
@@ -128,13 +128,13 @@ include 'header.php';
 							<thead>
 								<tr>
 									<th>Model</th>
-									<th>Category</th>
-									<th>Brand</th>
-									<th>Description</th>
-									<th>Quantity</th>
-									<th>Type</th>
+									<th>Kategori</th>
+									<th>Merek</th>
+									<th>Deskripsi</th>
+									<th>Kualitas</th>
+									<th>Tipe</th>
 									<th>Status</th>
-									<th>Action</th>
+									<th>Aksi</th>
 								</tr>
 							</thead>
 						</table>
@@ -153,20 +153,20 @@ include 'header.php';
 				<input type="hidden" name="key" value="transfer_item" />
 				<input type="hidden" name="id" value="0" />
 				<div class="form-group">
-					<label>Transfer Room</label>
+					<label>Ruang Transfer</label>
 					<select name="transfer_room" class="form-control" required></select>
 				</div>
 				<div class="form-group">
-					<label>Number of Qty</label>
+					<label>Jumlah< Kuantitas</label>
 					<input type="number" name="number_items" class="form-control" min="0" required>
 				</div>
 				<div class="form-group">
-					<label>Personnel-in-Charge</label>
+					<label>Penanggung Jawab</label>
 					<input type="text" name="personincharge" class="form-control" required>
 				</div>
 				<div class="form-group">
 					<button class="btn btn-primary" type="submit">Transfer</button>
-					<button class="btn btn-danger cancel-transfer" type="button" >Cancel</button>
+					<button class="btn btn-danger cancel-transfer" type="button" >Batal</button>
 				</div>
 			</form>
 		</div>
@@ -187,18 +187,18 @@ include 'header.php';
 			<form class="frm_returnroom">
 				<div class="modal-header">
 					
-					<h4 class="modal-title" id="myModalLabel">Number of Quantity</h4>
+					<h4 class="modal-title" id="myModalLabel">Jumlah Kuantitas</h4>
 				</div>
 				<div class="modal-body">
 					<div class="form-group">
-						<label>Number of Quantity</label>
+						<label>Jumlah Kuantitas</label>
 						<input type="number" name="qty_transfer" class="form-control" min="0">
 						<input type="hidden" name="id">
 					</div>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					<button type="submit" class="btn btn-primary">Return</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+					<button type="submit" class="btn btn-primary">Kembali</button>
 				</div>	
 			</form>
 		</div>

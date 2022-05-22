@@ -13,12 +13,12 @@
 					<svg class="glyph stroked dashboard-dial">
 						<use xlink:href="#stroked-dashboard-dial"></use>
 					</svg>
-					Dashboard
+					Dasbor
 				</a>
 			</li>
 			<li class="parent active">
 				<a href="#sub-item-1" data-toggle="collapse">
-					<span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaction 
+					<span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaksi
 				</a>
 				<ul class="children collapse" id="sub-item-1">
 					<li class="active">
@@ -26,7 +26,7 @@
 							<svg class="glyph stroked eye">
 								<use xlink:href="#stroked-eye"/>
 							</svg>
-							Reservations
+							Reservasi
 						</a>
 					</li>
 					<li>
@@ -34,7 +34,7 @@
 							<svg class="glyph stroked plus sign">
 								<use xlink:href="#stroked-plus-sign"/>
 							</svg>
-							New
+							Baru
 						</a>
 					</li>
 					<li>
@@ -42,7 +42,7 @@
 							<svg class="glyph stroked download">
 								<use xlink:href="#stroked-download"/>
 							</svg>
-							Borrowed Items
+							Barang Yang Dipinjam
 						</a>
 					</li>
 					<li>
@@ -50,7 +50,7 @@
 							<svg class="glyph stroked checkmark">
 								<use xlink:href="#stroked-checkmark"/>
 							</svg>
-							Returned Items
+							Barang Yang Dikembalikan
 						</a>
 					</li>
 				</ul>
@@ -61,7 +61,7 @@
 					<svg class="glyph stroked desktop">
 						<use xlink:href="#stroked-desktop"/>
 					</svg>
-					Item
+					Barang
 				</a>
 			</li>
 			<li>
@@ -69,7 +69,7 @@
 					<svg class="glyph stroked male user ">
 						<use xlink:href="#stroked-male-user"/>
 					</svg>
-					Borrower
+					Peminjam
 				</a>
 			</li>
 			<li>
@@ -77,7 +77,7 @@
 					<svg class="glyph stroked app-window">
 						<use xlink:href="#stroked-app-window"></use>
 					</svg>
-					Room
+					Ruang
 				</a>
 			</li>
 			<li>
@@ -85,7 +85,7 @@
 					<svg class="glyph stroked clipboard with paper">
 						<use xlink:href="#stroked-clipboard-with-paper"/>
 					</svg>
-					Inventory
+					Inventaris
 				</a>
 			</li>
 			<li>
@@ -93,7 +93,7 @@
 					<svg class="glyph stroked line-graph">
 						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#stroked-line-graph"/>
 					</svg>
-					Graph
+					Grafik
 				</a>
 			</li>
 			<li>
@@ -117,15 +117,15 @@
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<li class="active">Reservation</li>
+				<li class="active">Reservasi</li>
 			</ol>
 		</div><!--/.row-->
 
 		<div class="row">
 			<div class="col-md-12">
 				<ul class="nav nav-pills">
-					<li class="active"><a href="#pending" data-toggle="tab"><i class="fa fa-list"></i>&nbsp;&nbsp;Pending Reservation</a></li>
-					<li><a href="#reserved" data-toggle="tab"><i class="fa fa-question"></i>&nbsp;&nbsp;Accepted Reservation</a></li>
+					<li class="active"><a href="#pending" data-toggle="tab"><i class="fa fa-list"></i>&nbsp;&nbsp;</a></li>Reservasi Tertunda
+					<li><a href="#reserved" data-toggle="tab"><i class="fa fa-question"></i>&nbsp;&nbsp;Reservasi Diterima</a></li>
 				</ul>
 			</div>
 		</div>
@@ -140,11 +140,11 @@
 								<table class="table table-bordered tbl_pendingres">
 									<thead>
 										<tr>
-											<th>Name</th>
-											<th>Items</th>
-											<th>Reservation Date</th>
-											<th>Rooms</th>
-											<th>Action</th>
+											<th>Nama</th>
+											<th>Barang</th>
+											<th>Tanggal Reservasi</th>
+											<th>Ruang</th>
+											<th>Aksi</th>
 										</tr>
 									</thead>
 								</table>
@@ -154,11 +154,11 @@
 								<table class="table table-bordered tbl_reserved">
 									<thead>
 										<tr>
-											<th>Name</th>
-											<th>Items</th>
-											<th>Reservation Date</th>
-											<th>Rooms</th>
-											<th>Action</th>
+											<th>Nama</th>
+											<th>Barang</th>
+											<th>Tanggal Reservasi</th>
+											<th>Ruang</th>
+											<th>Aksi</th>
 										</tr>
 									</thead>
 								</table>
@@ -179,18 +179,18 @@
 				<form class="frm_cancelreservation">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="myModalLabel">Cancel Reservation</h4>
+						<h4 class="modal-title" id="myModalLabel">Pembatalan Reservasi</h4>
 					</div>
 					<div class="modal-body">
 					<div class="form-group">
-						<label>Cancellation Remarks</label>
+						<label>Pembatalan Komentar/label>
 						<textarea name="remarks_cancel" class="form-control" required style="height: 200px"></textarea>
 						<input type="hidden" name="codereserve">
 					</div>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						<button type="submit" class="btn btn-primary">Save changes</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+						<button type="submit" class="btn btn-primary">Simpan Perubahan</button>
 					</div>
 				</form>
 			</div>
