@@ -13,7 +13,7 @@
 					<svg class="glyph stroked dashboard-dial">
 						<use xlink:href="#stroked-dashboard-dial"></use>
 					</svg>
-					Dashboard
+					Dasbor
 				</a>
 			</li>
 			<li class="parent ">
@@ -27,7 +27,7 @@
 							<svg class="glyph stroked eye">
 								<use xlink:href="#stroked-eye"/>
 							</svg>
-							Reservations
+							Reservasi
 						</a>
 					</li>
 
@@ -37,7 +37,7 @@
 							<svg class="glyph stroked plus sign">
 								<use xlink:href="#stroked-plus-sign"/>
 							</svg>
-							New
+							Baru
 						</a>
 					</li>
 					<li>
@@ -45,7 +45,7 @@
 							<svg class="glyph stroked download">
 								<use xlink:href="#stroked-download"/>
 							</svg>
-							Borrowed Items
+							Barang Yang Dipinjam
 						</a>
 					</li>
 					<li>
@@ -53,7 +53,7 @@
 							<svg class="glyph stroked checkmark">
 								<use xlink:href="#stroked-checkmark"/>
 							</svg>
-							Returned Items
+							Barang Yang Dikembalikan
 						</a>
 					</li>
 				</ul>
@@ -64,7 +64,7 @@
 					<svg class="glyph stroked desktop">
 						<use xlink:href="#stroked-desktop"/>
 					</svg>
-					Item
+					Barang
 				</a>
 			</li>
 			<li>
@@ -72,7 +72,7 @@
 					<svg class="glyph stroked male user ">
 						<use xlink:href="#stroked-male-user"/>
 					</svg>
-					Borrower
+					Peminjam
 				</a>
 			</li>
 			<li>
@@ -80,7 +80,7 @@
 					<svg class="glyph stroked app-window">
 						<use xlink:href="#stroked-app-window"></use>
 					</svg>
-					Room
+					Ruang
 				</a>
 			</li>
 			<li>
@@ -88,7 +88,7 @@
 					<svg class="glyph stroked clipboard with paper">
 						<use xlink:href="#stroked-clipboard-with-paper"/>
 					</svg>
-					Inventory
+					Penyimpanan
 				</a>
 			</li>
 			<li>
@@ -96,7 +96,7 @@
 					<svg class="glyph stroked line-graph">
 						<use xlink:href="#stroked-line-graph"/>
 					</svg>
-					Graph
+					Grafis
 				</a>
 			</li>
 			<li>
@@ -104,7 +104,7 @@
 					<svg class="glyph stroked female user">
 						<use xlink:href="#stroked-female-user"/>
 					</svg>
-					User
+					Pengguna
 				</a>
 			</li>
 			<?php 
@@ -126,7 +126,7 @@
 					<svg class="glyph stroked plus sign">
 						<use xlink:href="#stroked-plus-sign"/>
 					</svg> &nbsp;
-					Add Item
+					Tambahkan Barang
 				</button>
 			</div>
 		</div><!--/.row-->
@@ -137,15 +137,15 @@
 						<table class="table table-bordered table_equipment ">
 							<thead>
 								<tr>
-									<th>Image</th>
+									<th>Gambar</th>
 									<th>Model</th>
-									<th>Category</th>
-									<th>Brand</th>
-									<th>Description</th>
-									<th>Quantity</th>
-									<th>Quantity Left</th>
+									<th>Kategori</th>
+									<th>Merek</th>
+									<th>Deskripsi</th>
+									<th>Jumlah</th>
+									<th>Jumlah tersisa</th>
 									<th>Status</th>
-									<th>Action</th>
+									<th>Aksi</th>
 								</tr>
 							</thead>
 						</table>
@@ -163,12 +163,12 @@
 				<svg class="glyph stroked plus sign">
 					<use xlink:href="#stroked-plus-sign"/>
 				</svg>
-				Add Item
+				Tambahkan Barang
 			</h4>
 			<form class="frm_addequipment" enctype="multipart/form-data">
 				<input type="hidden" name="key" value="add_equipment" />
 				<div class="form-group">
-					<label>Device ID</label>
+					<label>ID Perangkat</label>
 					<input type="text" name="e_number" class="form-control" required>
 				</div>
 				<div class="form-group">
@@ -176,57 +176,57 @@
 					<input type="text" name="e_model" class="form-control" required>
 				</div>
 				<div class="form-group">
-					<label>Category</label>
+					<label>Kategori</label>
 					<select name="e_category" class="form-control" required>
-						<option selected disabled>Please select category</option>
+						<option selected disabled>Silakan pilih kategori</option>
 						<option>Mouse</option>
 						<option>Keyboard</option>
 						<option>Monitor</option>
-						<option>Projector</option>
+						<option>Proyektor</option>
 						<option>Remote</option>
-						<option>DLP Screen</option>
+						<option>Layar DLP</option>
 						<option>Aircon</option>
 						<option>TV</option>
 						<option>AVR</option>
 						<option>Extension</option>
 						<option>UPS</option>
 						<option>Router</option>
-						<option>Table</option>
-						<option>Chair</option>
+						<option>Meja</option>
+						<option>Kursi</option>
 						<option>Switch Hub</option>
 					</select> 
 				</div>
 				<div class="form-group">
-					<label>Brand</label>
+					<label>Merek</label>
 					<input type="text" name="e_brand" class="form-control" required>
 				</div>
 				<div class="form-group">
-					<label>Description</label>
+					<label>Deskripsi</label>
 					<textarea name="e_description" class="form-control" required></textarea>
 				</div>
 				<div class="form-group">
-					<label>Quantity</label>
+					<label>Jumlah</label>
 					<input type="number" name="e_stock" class="form-control" min="1" required>
 				</div>
 				<div class="form-group hide">
-					<label>Assign Room</label>
+					<label>Ruang Yang Ditentukan</label>
 					<select name="e_assigned" class="form-control" required>
 					</select>
 				</div>
 				<div class="form-group">
-					<label>Type</label>
+					<label>Tipe</label>
 					<select type="text" name="e_type" class="form-control" required>
-						<option disabled selected>Please select type</option>
-						<option>Consumable</option>
-						<option>Non-consumable</option>
+						<option disabled selected>Silakan pilih tipe</option>
+						<option>Dapat dikonsumsi</option>
+						<option>Tidak dapat dikonsumsi</option>
 					</select>
 				</div>
 				<div class="form-group">
 					<label>Status</label>
 					<select name="e_status" class="form-control" required>
-						<option disabled selected>Please select status</option>
-						<option value="1">New</option>
-						<option value="2">Old</option>
+						<option disabled selected>Silakan pilih status</option>
+						<option value="1">Baru</option>
+						<option value="2">Lama</option>
 					</select>
 				</div>
 				
@@ -236,12 +236,12 @@
 				</div>
 				
 				<div class="form-group">
-					<label>Price</label>
+					<label>Harga</label>
 					<input type="text" name="e_price" class="form-control" required>
 				</div>
 				
 				 <div class="form-group">
-						<label >Photo</label>
+						<label >Foto</label>
 						
 						  <input type="file" name="e_photo" for="inputPassword3" class="form-control" required />
 						
@@ -253,12 +253,12 @@
 						<div class="col-md-6 col-sm-12 col-xs-12">
 							<button class="btn btn-danger btn-block cancel-equipment" type="button">
 								<i class="fa fa-remove"></i>
-								CANCEL
+								BATALKAN
 							</button>
 						</div>
 						<div class="col-md-6 col-sm-12 col-xs-12">
 							<button class="btn btn-primary btn-block" type="submit">
-								ADD
+								TAMBAH
 								<i class="fa fa-check"></i>
 							</button>
 						</div>
