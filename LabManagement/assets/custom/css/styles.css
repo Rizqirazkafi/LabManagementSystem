@@ -7,7 +7,7 @@ Version 1.0
 /*Global Styles*/
 
 body {
-	background: #f1f4f7;
+	background: #6272a4;
 	padding-top: 50px;
 	color: #5f6468;
 }
@@ -241,8 +241,8 @@ fieldset[disabled] .btn-danger.active {
 /*Backgrounds*/
 
 .bg-primary {
-	color: #1b3548;
-	background-color: #e9ecf2;
+	color: #f8f8f2;
+	background-color: #6272a4;
 }
 a.bg-primary:hover {
 	background-color: #e9ecf2;
@@ -303,7 +303,7 @@ a.bg-danger:hover {
 }
 
 .panel-default .panel-heading {
-	background: #fff;
+	background: #f8f8f2;
 	border-bottom: 1px solid #eee;
 	color: #5f6468;
 }
@@ -448,7 +448,7 @@ a.bg-danger:hover {
 }
 
 .nav-tabs {
-	background: #e9ecf2;
+	background: #6272a4;
 	border: 0;
 }
 
@@ -495,7 +495,7 @@ a.bg-danger:hover {
 
 .navbar input {
 	border: 0;
-	background: #444;
+	background: #282a36;
 	color: #fff;
 }
 

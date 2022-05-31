@@ -1,5 +1,5 @@
 <?php 
-date_default_timezone_set('Asia/Manila');
+date_default_timezone_set('Asia/Jakarta');
 	include 'header.php';
 ?>
 	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 col-md-2 sidebar">
