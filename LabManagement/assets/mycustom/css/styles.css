@@ -93,16 +93,16 @@ label {
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
     color: white !important;
     border: 1px solid transparent;
-    background-color: #30a5ff;
+    background-color: #bd93f9;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #585858), color-stop(100%, #111));
     background: -webkit-linear-gradient(top, #585858 0%, #111 100%);
     background: -moz-linear-gradient(top, #585858 0%, #111 100%);
     background: -ms-linear-gradient(top, #585858 0%, #111 100%);
     background: -o-linear-gradient(top, #585858 0%, #111 100%);
-    background: linear-gradient(to bottom, #30a5ff 0%, #30a5ff 100%);
+    background: linear-gradient(to bottom, #bd93f9 0%, #bd93f9 100%);
 }
 
-.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+.datatables_wrapper .datatables_paginate .paginate_button.current, .datatables_wrapper .datatables_paginate .paginate_button.current:hover {
     color: #fff !important;
     border: 1px solid transparent;
     background-color: white;
@@ -111,11 +111,11 @@ label {
     background: -moz-linear-gradient(top, #fff 0%, #dcdcdc 100%);
     background: -ms-linear-gradient(top, #fff 0%, #dcdcdc 100%);
     background: -o-linear-gradient(top, #fff 0%, #dcdcdc 100%);
-    background: linear-gradient(to bottom, #30a5ff 0%, #30a5ff 100%);
+    background: linear-gradient(to bottom, #bd93f9 0%, #bd93f9 100%);
 }
 
 .form-control {
-    border: 2px solid #30a5ff;
+    border: 2px solid #bd93f9;
 }
 
 .login {
@@ -204,18 +204,18 @@ li.select2-selection__choice {
 }
 
 .custom-panel {
-    border: 1px solid #30a5ff !important;
+    border: 1px solid #bd93f9 !important;
 }
 
 .custom-panel > .panel-heading {
     height: 40px;
     font-size: 14px;
     line-height: 20px;
-    background: #30a5ff;
+    background: #bd93f9;
 }
 
 .select2-container {
-    border: 2px solid #30a5ff;
+    border: 2px solid #bd93f9;
     border-radius: 2px;
 }
 
@@ -229,7 +229,7 @@ li.dropdown.pull-right.notification {
 }
 
 .badge-primary {
-    background: #30a5ff;
+    background: #bd93f9;
 }
 
 ul.dropdown-menu > li > a {
@@ -237,8 +237,8 @@ ul.dropdown-menu > li > a {
 }
 
 .panel-primary > .panel-heading {
-    background: #30a5ff;
-    border: #30a5ff;
+    background: #bd93f9;
+    border: #bd93f9;
 }
 
 h4.text-white {

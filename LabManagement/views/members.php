@@ -27,7 +27,7 @@ include 'header.php';
 						<svg class="glyph stroked eye">
 							<use xlink:href="#stroked-eye"/>
 						</svg>
-						Reservations
+						Reservasi
 					</a>
 				</li>
 				<li>
@@ -35,7 +35,7 @@ include 'header.php';
 						<svg class="glyph stroked plus sign">
 							<use xlink:href="#stroked-plus-sign"/>
 						</svg>
-						New
+						Baru
 					</a>
 				</li>
 				<li>
@@ -43,7 +43,7 @@ include 'header.php';
 						<svg class="glyph stroked download">
 							<use xlink:href="#stroked-download"/>
 						</svg>
-						Borrowed Items
+						Barang di pinjam
 					</a>
 				</li>
 				<li>
@@ -51,7 +51,7 @@ include 'header.php';
 						<svg class="glyph stroked checkmark">
 							<use xlink:href="#stroked-checkmark"/>
 						</svg>
-						Returned Items
+						Barang di kembalikan
 					</a>
 				</li>
 			</ul>
@@ -70,7 +70,7 @@ include 'header.php';
 				<svg class="glyph stroked male user ">
 					<use xlink:href="#stroked-male-user"/>
 				</svg>
-				Borrower
+				Peminjam
 			</a>
 		</li>
 		<li>
@@ -78,7 +78,7 @@ include 'header.php';
 				<svg class="glyph stroked app-window">
 					<use xlink:href="#stroked-app-window"></use>
 				</svg>
-				Room
+				Ruangan
 			</a>
 		</li>
 		<li>
@@ -86,7 +86,7 @@ include 'header.php';
 				<svg class="glyph stroked clipboard with paper">
 					<use xlink:href="#stroked-clipboard-with-paper"/>
 				</svg>
-				Inventory
+				Inventaris
 			</a>
 		</li>
 		<li>
@@ -94,7 +94,7 @@ include 'header.php';
 				<svg class="glyph stroked line-graph">
 					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#stroked-line-graph"/>
 				</svg>
-				Graph
+				Grafik
 			</a>
 		</li>
 		<li>
@@ -102,7 +102,7 @@ include 'header.php';
 				<svg class="glyph stroked female user">
 					<use xlink:href="#stroked-female-user"/>
 				</svg>
-				User
+				Pengguna
 			</a>
 		</li>
 			<?php 
@@ -116,26 +116,26 @@ include 'header.php';
 	<div class="row">
 		<ol class="breadcrumb">
 			<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-			<li class="active">Borrower</li>
+			<li class="active">Peminjam</li>
 		</ol>
 		<div class="breadcrumb">
 			<button class="btn btn-primary col-sm-offset-7 add_member">
 				<svg class="glyph stroked plus sign">
 					<use xlink:href="#stroked-plus-sign"/>
 				</svg>
-				Upload CSV File
+				Unggah CSV File
 			</button>
 			<button class="btn btn-primary add_student">
 				<svg class="glyph stroked plus sign">
 					<use xlink:href="#stroked-plus-sign"/>
 				</svg>
-				Add Student
+				Tambah Mahasiswa
 			</button>
 			<button class="btn btn-primary add_faculty">
 				<svg class="glyph stroked plus sign">
 					<use xlink:href="#stroked-plus-sign"/>
 				</svg>
-				Add Faculty
+				Tambah Fakultas
 			</button>
 		</div>
 	</div><!--/.row-->
@@ -147,14 +147,14 @@ include 'header.php';
 						<thead>
 							<tr>
 								<th>ID Number</th>
-								<th>Name</th>
+								<th>Nama</th>
 								<th>Gender</th>
-								<th>Contact</th>
-								<th>Department</th>
-								<th>Type</th>
-								<th>Year/Section</th>
+								<th>Kontak</th>
+								<th>Jurusan</th>
+								<th>Tipe</th>
+								<th>Tipe/Seksi</th>
 								
-								<th>Action</th>
+								<th>Aksi</th>
 							</tr>
 						</thead>
 					</table>
@@ -168,7 +168,7 @@ include 'header.php';
 <div class="right-sidebar member-side">
 	<div class="sidebar-form">
 		<div class="container-fluid">
-			<h4 class="alert bg-success">Add Member</h4>
+			<h4 class="alert bg-success">Tambah Anggota</h4>
 			<div class="form-group">
 				<a class="btn btn-primary btn-block" target="_blank" download="member_format.csv" href="../assets/downloadables/member_format.csv">
 					<i class="fa fa-download"></i>
@@ -177,13 +177,13 @@ include 'header.php';
 			</div>
 			<form class="frm_addmember" enctype="multipart/form-data">
 				<div class="form-group">
-					<label>Upload File</label>
+					<label>Unggah File</label>
 					<input type="file" name="file" class="form-control" required>
 					<input type="hidden" name="key" value="add_member">
 				</div>
 				<div class="form-group">
 					<button class="btn btn-danger cancel_member" type="button">Cancel</button>
-					<button class="btn btn-success" type="submit">Upload</button>
+					<button class="btn btn-success" type="submit">Unggah</button>
 				</div>
 			</form>	
 		</div>

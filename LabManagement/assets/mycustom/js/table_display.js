@@ -2,7 +2,7 @@ var table_room =  $('.table_room').DataTable({
 			"fnRowCallback": function( nRow, aData, iDisplayIndex, iDisplayIndexFull ) {
                     if ( aData[0] == "Room 310" )
                     {
-                        $('td', nRow).css('background-color', 'skyblue');
+                        $('td', nRow).css('background-color', '#8be9fd');
                     }
                 },
 		"ajax":
@@ -65,9 +65,9 @@ var table_room =  $('.table_room').DataTable({
 				exportOptions:{
 					columns: [0]
 				},
-				message: '<img src="LMS/assets/mycustom/js/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -177,9 +177,9 @@ var table_member =  $('.table_member').DataTable({
 				exportOptions:{
 					columns: [0,1,2,3,4,5,6]
 				},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -261,9 +261,9 @@ var table_user =  $('.table_user').DataTable({
 				exportOptions:{
 					columns: [0,1,2]
 				},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -424,9 +424,9 @@ var table_equipment = $('.table_equipment').DataTable({
 				exportOptions:{
 					columns: [0,1,2,3]
 				},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -503,9 +503,9 @@ var table_inventory_new = $('.table_inventory_new').DataTable({
 				exportOptions:{
 					columns: [0,1,2,3,4]
 				},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -582,10 +582,11 @@ var table_inventory_old = $('.table_inventory_old').DataTable({
 				exportOptions:{
 					columns: [0,1,2,3,4]
 				},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
+				
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
 				}
@@ -660,10 +661,11 @@ var table_inventory_lost = $('.table_inventory_lost').DataTable({
 				exportOptions:{
 					columns: [0,1,2,3,4]
 				},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
+			
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
 				}
@@ -738,9 +740,9 @@ var table_inventory_damaged = $('.table_inventory_damaged').DataTable({
 				exportOptions:{
 					columns: [0,1,2,3,4]
 				},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -816,9 +818,9 @@ var table_inventory_pulledout = $('.table_inventory_pulledout').DataTable({
 				exportOptions:{
 					columns: [0,1,2,3,4]
 				},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -892,9 +894,9 @@ var table_inventory_all = $('.table_inventory_all').DataTable({
 											exportOptions:{
 												columns: [0,1,2,3,4,5,6]
 											},
-											message: '<center><h4>REPUBLIC OF THE PHILIPPINES</h4>\
-														<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-														<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+											message: '<center><h4>NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+														<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+														<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 														</center>',
 											customize: function ( win ) {
 												$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -989,9 +991,9 @@ function room_info(a,b){
 										exportOptions:{
 											columns: [0,1,2,3,4,5,6]
 										},
-										message: '<center><h4>REPUBLIC OF THE PHILIPPINES</h4>\
-													<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-													<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+										message: '<center><h4>NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+													<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+													<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 													</center>',
 										customize: function ( win ) {
 											$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -1166,9 +1168,9 @@ var tbl_borrow = $('.tbl_borrow').DataTable({
 				exportOptions:{
 					columns: [0,1,2,3]
 				},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -1253,9 +1255,9 @@ var tbl_return = $('.tbl_return').DataTable({
 				exportOptions:{
 					columns: [0,1,2]
 				},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -1336,9 +1338,9 @@ var tbl_pendingres = $('.tbl_pendingres').DataTable({
 				exportOptions:{
 					columns: [0,1,2,3]
 				},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -1415,9 +1417,9 @@ var tbl_reserved = $('.tbl_reserved').DataTable({
 				exportOptions:{
 					columns: [0,1,2,3]
 				},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -1494,9 +1496,9 @@ var tbluser_reservation = $('.tbluser_reservation').DataTable({
 				exportOptions:{
 					columns: [0,1,2]
 				},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -1566,9 +1568,9 @@ var table_history = $('.table_history').DataTable({
 				exportOptions:{
 					columns: [0,1,2]
 				},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -1650,9 +1652,9 @@ var table_dashboard = $('.table_dashboard').DataTable({
 				exportOptions:{
 					columns: [0,1,2,3,4,5]
 				},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -1729,9 +1731,9 @@ function member_profile(id)
 					exportOptions:{
 						columns: [0,1,2,3]
 					},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -1803,9 +1805,9 @@ var tbluser_inbox = $('.tbluser_inbox').DataTable({
 					exportOptions:{
 						columns: [0,1,2]
 					},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
@@ -1910,9 +1912,9 @@ var table_inventory_transfer = $('.table_inventory_transfer').DataTable({
 				exportOptions:{
 					columns: [0,1,2,3,4]
 				},
-				message: '<img src="http://4.bp.blogspot.com/_5ydAHJv4lKc/TSm6Sr4vMWI/AAAAAAAAAAQ/B3oGPh3_26k/s1600/logo.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">REPUBLIC OF THE PHILIPPINES</h4>\
-							<h5>CARLOS HILADO MEMORIAL STATE COLLEGE</h5>\
-							<h6>DEPARTMENT OF INFORMATION SYSTEMS</h6>\
+				message: '<img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-UNESA-Universitas-Negeri-Surabaya-PNG.png" height="100px" width="100px" style="position: absolute;top:0;left:80px;"><center><h4 style="margin-top:-40px;">NEGARA KESATUAN REPUBLIK INDONESIA</h4>\
+							<h5>UNIVERSITAS NEGERI SURABAYA</h5>\
+							<h6>JURUSAN TEKNIK INFORMATIKA</h6>\
 							</center>',
 				customize: function ( win ) {
 					$(win.document.body).find( 'table' ).append('<br<br/><br><br><br><h4 class="">Noted by:</h4><br><br><br><br><br><h4 class="">Prepared by:</h4>');
